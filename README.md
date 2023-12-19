@@ -54,9 +54,11 @@ There are a couple of ways we can get at the certainty of these retention number
 
 # Bootstrapping: Should we be confident in the difference?
 <img width="484" alt="image" src="https://github.com/kyang18/Mobile-Games-A-B-Testing-Player-Retention/assets/76982420/41e9ffef-a679-497a-9c6d-a2058d7ac668">
+
 These two distributions above represent the bootstrap uncertainty over what the underlying 1-day retention could be for the two AB-groups. Just eyeballing this plot, we can see that there seems to be some evidence of a difference, albeit small. Let's zoom in on the difference in 1-day retention
 
 <img width="549" alt="image" src="https://github.com/kyang18/Mobile-Games-A-B-Testing-Player-Retention/assets/76982420/712c8d36-b6b9-40db-97d0-e8b6e52a4ab0">
+
 From this chart, we can see that the most likely % difference is around 1% - 2%, and that 96% of the distribution is above 0%, in favor of a gate at level 30.
 
 # Part 5. Comparing 7-day Retention
